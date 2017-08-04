@@ -22,7 +22,7 @@ class Queue
   end
 
   def enqueue(el)
-    @queue << el
+    @queue.unshift(el)
   end
 
   def dequeue
@@ -31,5 +31,11 @@ class Queue
 
   def show
     @queue.dup
+  end
+end
+
+class Map
+  def initialize
+    @map = []
   end
 end
