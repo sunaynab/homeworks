@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta content='text/html; charset=UTF-8' http-equiv='Content-Type' />
+  </head>
+  <body>
+    <h1>Welcome to this cool website, <%= @user.username %> </h1>
+    <p>
+      You have successfully subscribe to our mailing list. We are excited to have you onboard. <br>
+
+      Your username is: <b><%= @user.username %></b>
+    </p>
+    <p>
+     To login to the site, just follow this link: <%= @url %>
+    </p>
+  </body>
+</html>
