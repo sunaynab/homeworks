@@ -1,0 +1,13 @@
+@font-face {
+  font-family: 'Roboto';
+  src: url('./Roboto-Thin.ttf'),
+       url('./Elevation.ttf');
+  font-weight: 600;
+  font-style: normal;
+}
+
+.hello {
+  color: red;
+  font-family: 'Roboto';
+  background: url('./noun_688435_cc.png');
+}
